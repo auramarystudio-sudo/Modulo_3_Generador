@@ -1,5 +1,7 @@
-export default function App() {
-  return (
-    <div/>
-  );
+import Prompts from './pages/Prompts.jsx';
+
+function App() {
+  return <Prompts />;
 }
+
+export default App;
